@@ -42,6 +42,8 @@
   end_time: "11:55 AM"
   description: "Open Ecosystems for Humanitarian Assistance / Disaster Response"
   panelists:
+    - name: LCDR Erik Bates
+      postion: Joint Artificial Intelligence Center
     - name: Tyler Radford
       position: Humanitarian OpenStreetMap Team
     - name: Rhiannan Price
