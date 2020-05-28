@@ -15,7 +15,18 @@ Each session will have:
 - Panelist:
 - Atendees
 
-### Best practices for computer setup
+### Communication Channels
+
+- [join technocation slack](https://join.slack.com/t/technocation/shared_invite/zt-ente5qnp-vkgZAe_6TDkCMA0MCnEkRA)
+
+Slack Channels
+
+- fedgeo-headquarters: chat for getting help and discussing things with the organizers
+- fedgeo-main-room: backstage chat for the fedgeo main room (panel day)
+- fedgeo-workshop-1-room: backstage chat for the fedgeo workshop 1 room
+- fedgeo-workshop-2-room: backstage chat for the fedgeo workshop 2 room
+- fedgeo-workshop-3-room: backstage chat for the fedgeo workshop 3 room
+- fedgeo-workshop-4-room: backstage chat for the fedgeo workshop 4 room
 
 - audio
 
