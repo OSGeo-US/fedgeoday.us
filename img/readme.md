@@ -1,1 +1,0 @@
-(header-bg.jpg)[https://flic.kr/p/28yfbLb]
