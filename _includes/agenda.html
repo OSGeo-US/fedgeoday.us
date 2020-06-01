@@ -107,7 +107,10 @@
                                     {% for handson in session.sessions%}
                                     <dt class="agenda-title">{{handson.title}}</dt>
                                     <dt class="agenda-content">{{handson.description}}</dt>
-                                    <dt class="agenda-instructor">{{handson.instructor}}</dt>
+                                    {% if handson.instructor %}<dt class="agenda-instructor">{{handson.instructor}}</dt>{% endif %}
+                                    {% if handson.instructors %}
+                                        <dt class="agenda-instructor">{% for instructor in handson.instructors %}{% if forloop.first == false %}<br/>{% endif %}{{instructor}}{% endfor %}</dt>
+                                    {% endif %}
                                     {% endfor %}
                                 </dl>
                             </td>

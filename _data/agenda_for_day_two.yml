@@ -44,7 +44,7 @@
     - title: Ask Me Anything (AMA) with Paul Ramsey
       description: Join Crunchy Data Executive Geospatial Engineer and founding contributor of PostGIS for an "Ask Me Anything" style session where attendees can ask Paul questions regarding PostGIS, Spatial data, and other spatial use cases. Attendees are encouraged to submit questions ahead of time so they can be grouped and addressed in an efficient manner. Attendees will be able to ask questions in real-time as well.
       instructor: Paul Ramsey, Crunchy Data
-    - title: The Opportunity Project Earth Sprints
+    - title: Solving Environmental Challenges with Open Data and Human-Centered Design
       description: >
         The Opportunity Project (TOP) is an innovation program based out of the U.S. Census Bureau that brings
         together technologists, government, and communities to create digital products that tackle public-facing challenges
@@ -56,4 +56,7 @@
         and more. 
         <br/><br/>
         Join us for an exciting panel of technologists and federal agencies that have participated in the TOP process! Panelists will share their experiences, lessons learned, and methods of open collaboration to tackle challenges felt by communities around the country. Shortly after, join us for a master class in human-centered design, a revolutionary methodology for understanding people's needs, and building effective solutions. This session will teach participants new and different tools for problem framing, qualitative user research, idea generation, prototyping, and visual thinking.
-      instructor: The Opportunity Project Representatives
+      instructors:
+        - "Haley Ashcom, Strategic Liaison, Census Open Innovation Labs"
+        - "Emma Brennan, Designer, Census Open Innovation Labs"
+        - "Dominica Zhu, Director of Strategic Impact and Program Management, Census Open Innovation Labs"
