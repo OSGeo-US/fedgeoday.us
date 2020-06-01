@@ -60,3 +60,11 @@
         - "Haley Ashcom, Strategic Liaison, Census Open Innovation Labs"
         - "Emma Brennan, Designer, Census Open Innovation Labs"
         - "Dominica Zhu, Director of Strategic Impact and Program Management, Census Open Innovation Labs"
+    - title: "Using STAC and Open-Source Tools with Sentinel-2 data"
+      description: >
+        Sentinel-2 atmospherically corrected (Level 2) data was recently generated for all of Africa and going back at least 3 years for the Digital Earth Africa project. However, this data has been stored in a Requester Pays bucket on AWS S3 in JPEG2K format which has limited some uses. Element 84 is working with Geoscience Australia to convert this data to Cloud-Optimized GeoTIFF, generating metadata in the new SpatioTemporal Asset Catalog (STAC). The data itself is free and open to anyone, and is easily discoverable via the STAC API.
+        <br/><br/>
+        In this short tutorial we will look at the STAC metadata, the format of the data files themselves, and will demonstrate how to use some Open-source tools such as sat-search to query the STAC API and find data of interest. We will also discuss the ecosystem of Open-Source tools that can be used with STAC for downloading raw files, reading windows of the data directly, and tiling scenes dynamically via Lambda functions.
+      instructors:
+        - "Matt Hanson, Element84"
+        - "Vincent Sarago, DevelopmentSeed"
