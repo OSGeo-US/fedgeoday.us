@@ -6,11 +6,12 @@ This is a listing of messages we can use to publish out to twitter, insta, faceb
 
 ## Sponsorship
 
-- MESSAGE 1
+- Tweet Cesium Bronze sponsorship.  5/27/2020 @eddie @guido/osgeo 
 
 ## Call to action
 
-- MESSAGE 1
+- Tweet Register for FedGeo 5/27/2020 @guido/osgeo
+- Email blast Register for FedGeo 5/28/2020 @guido
 
 ## Milestone
 
