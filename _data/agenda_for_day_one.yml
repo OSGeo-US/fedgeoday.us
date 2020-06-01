@@ -34,9 +34,13 @@
   moderators:
     - name: Steve Gillotte
       position: CEO - Reinventing Geospatial, Inc
-- title: Ignite
+- title: "Lightning Talk<br/>SpaceNet: Accelerating Open Source Analytic Techniques Through Partnerships"
   start_time: "10:45 AM"
   end_time: "10:55 AM"
+  description: >
+    Since its founding in 2016, the goal of SpaceNet has been to accelerate the development and dissemination of open source, machine learning techniques for geospatial applications, specifically foundational mapping. The organization has achieved this through four pillars: (1) publishing labeled datasets; (2) structuring and hosting public data science challenges; (3) open sourcing leading machine learning models; and (4) conducting rigorous evaluation of the datasets and models. Commercial, nonprofit, and government organizations have joined as SpaceNet Partners over the years in an effort to help expand the depth, breath, and reach of these pillars. In this lightning talk, SpaceNet leadership briefly describe the history of organization, progress made to date, and the roadmap for the coming year.
+    <br/><br/>
+    By In-Q-Tel CosmiQ Works
 - title: Panel 2
   start_time: "10:55 AM"
   end_time: "11:55 AM"
@@ -73,7 +77,7 @@
   moderators:
     - name: Daniel Dufour
       position: CEO - GeoSurge
-- title: The Opportunity Project Ignite Presentation
+- title: "Lightning Talk<br/>The Opportunity Project"
   start_time: "1:05 PM"
   end_time: "1:15 PM"
   description: "The Opportunity Project: Solving Environmental Challenges with Open Data and Human-Centered Design"
