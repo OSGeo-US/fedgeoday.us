@@ -38,12 +38,16 @@
     - title: Data Visualization and Cartography with QGIS
       description: "This workshop will explore the wide range of data visualization and cartographic options available in QGIS 3. QGIS has seen remarkable growth in it's cartogrpahic capacities in recent years. You will learn many techniques unique to QGIS such as: use of inverted polygon shapeburst fills, blending modes, live layer effects and geometry generator symbol layers. We will also work with animating time based data, 3D views and Mesh data. If you want to take your map creation skills to the next level - this is the perfect workshop for you!"
       instructor: Kurt Menke, Bird's Eye View GIS
-    - title: Introduction to pg_tileserv and pg_featureserv
-      description: This session is an introduction and overview of two new open source spatial services they released, pg_tileserv and pg_featureserv. These two new microservices make PostGIS more available for developers to easily integrate their spatial data in PostGIS into web based spatial applications.
-      instructor: Crunchy Data Staff
-    - title: Ask Me Anything (AMA) with Paul Ramsey
-      description: Join Crunchy Data Executive Geospatial Engineer and founding contributor of PostGIS for an "Ask Me Anything" style session where attendees can ask Paul questions regarding PostGIS, Spatial data, and other spatial use cases. Attendees are encouraged to submit questions ahead of time so they can be grouped and addressed in an efficient manner. Attendees will be able to ask questions in real-time as well.
-      instructor: Paul Ramsey, Crunchy Data
+    - title: pg_tileserv, pg_featureserv, and AMA with Paul Ramsey
+      description: >
+        9:00-12:00 - Introductions to PostGIS<br/>
+        1:00-2:30 - pg_tileserv and pg_featureserv<br/>
+        2:45-4:00 - AMA with Paul Ramsey<br/>
+        <br/>
+        This session is an introduction and overview of two new open source spatial services they released, pg_tileserv and pg_featureserv. These two new microservices make PostGIS more available for developers to easily integrate their spatial data in PostGIS into web based spatial applications.<br/>
+        <br/>
+        Join Crunchy Data Executive Geospatial Engineer and founding contributor of PostGIS for an "Ask Me Anything" style session where attendees can ask Paul questions regarding PostGIS, Spatial data, and other spatial use cases. Attendees are encouraged to submit questions ahead of time so they can be grouped and addressed in an efficient manner. Attendees will be able to ask questions in real-time as well.
+      instructor: Paul Ramsey &amp Crunchy Data Staff
     - title: Solving Environmental Challenges with Open Data and Human-Centered Design
       description: >
         The Opportunity Project (TOP) is an innovation program based out of the U.S. Census Bureau that brings
