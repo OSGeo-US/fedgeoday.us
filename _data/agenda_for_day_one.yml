@@ -34,7 +34,7 @@
   moderators:
     - name: Steve Gillotte
       position: CEO - Reinventing Geospatial, Inc
-- title: "Lightning Talk<br/>SpaceNet: Accelerating Open Source Analytic Techniques Through Partnerships"
+- title: "Lightning Talk<br/><br/>SpaceNet: Accelerating Open Source Analytic Techniques Through Partnerships"
   start_time: "10:45 AM"
   end_time: "10:55 AM"
   description: >
@@ -61,9 +61,13 @@
   moderators:
     - name: Bryan Lane
       position: General Services Administration (GSA)
-- title: Ignite
+- title: "Lightning Talk<br/><br/>State of the open-core visualization engine"
   start_time: "11:55 AM"
   end_time: "12:05 PM"
+  description: "The current state of the open-core visualization engine with over one million downloads, and the programs that are benefiting from it."
+  speaker:
+  - name: Brady Moore
+    position: Cesium
 - title: Panel 3
   start_time: "12:05 PM"
   end_time: "1:05 PM"
@@ -77,7 +81,7 @@
   moderators:
     - name: Daniel Dufour
       position: CEO - GeoSurge
-- title: "Lightning Talk<br/>The Opportunity Project: Earth Sprints"
+- title: "Lightning Talk<br/><br/>The Opportunity Project: Earth Sprints"
   start_time: "1:05 PM"
   end_time: "1:15 PM"
   description: "The Opportunity Project: Solving Environmental Challenges with Open Data and Human-Centered Design"
