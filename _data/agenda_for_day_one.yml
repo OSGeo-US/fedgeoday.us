@@ -75,9 +75,12 @@
   panelists:
     - name: Dr. Sophia Liu
       position: United States Geological Survey
+    - name: Dr. Ellsworth Campbell
+      position: CDC
+    - name: Tony Boyles
+    - name: Defense Digital Service
     - name: Rob Emanuele
       position: Azavea
-    - name: Defense Digital Service
   moderators:
     - name: Daniel Dufour
       position: CEO - GeoSurge
