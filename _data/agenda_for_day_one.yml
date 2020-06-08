@@ -78,7 +78,9 @@
     - name: Dr. Ellsworth Campbell
       position: CDC
     - name: Tony Boyles
-      position: Defense Digital Service
+      position: "  "
+    - name: Defense Digital Service
+      position: "  "
     - name: Rob Emanuele
       position: Azavea
   moderators:
