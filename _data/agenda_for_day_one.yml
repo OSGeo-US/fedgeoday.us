@@ -73,16 +73,19 @@
   end_time: "1:05 PM"
   description: "Applications for COVID Response, Monitoring & More"
   panelists:
-    - name: Dr. Sophia Liu
-      position: United States Geological Survey
+    - name: Dr. Sophia B Liu
+      position: United States Geological Survey (USGS)
+      link: https://www.linkedin.com/in/sophiabliu/
     - name: Dr. Ellsworth Campbell
-      position: CDC
+      position: Centers for Disease Control and Prevention (CDC)
     - name: Tony Boyles
       position: "  "
+      link: https://www.linkedin.com/in/aaboyles/
     - name: Defense Digital Service
       position: "  "
     - name: Rob Emanuele
       position: Azavea
+      link: https://www.linkedin.com/in/rob-emanuele-15852912/
   moderators:
     - name: Daniel Dufour
       position: CEO - GeoSurge
