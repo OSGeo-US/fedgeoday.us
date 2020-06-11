@@ -1,3 +1,8 @@
+---
+title: Attendance Information
+layout: nil
+---
+
 # FedGeoDay 2020 Attendance Information
 
 ## Code of Conduct
