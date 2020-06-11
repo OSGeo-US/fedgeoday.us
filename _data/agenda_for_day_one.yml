@@ -73,19 +73,23 @@
   end_time: "1:05 PM"
   description: "Applications for COVID Response, Monitoring & More"
   panelists:
-    - name: Dr. Sophia Liu
-      position: United States Geological Survey
+    - name: Dr. Sophia B Liu
+      position: United States Geological Survey (USGS)
+      link: https://www.linkedin.com/in/sophiabliu/
     - name: Dr. Ellsworth Campbell
-      position: CDC
+      position: Centers for Disease Control and Prevention (CDC)
     - name: Tony Boyles
-      position: "  "
-    - name: Defense Digital Service
-      position: "  "
+      position: "Cloudframe.io"
+      link: https://www.linkedin.com/in/aaboyles/
+    - name: Stuart Casarotto
+      position: Defense Digital Service
     - name: Rob Emanuele
       position: Azavea
+      link: https://www.linkedin.com/in/rob-emanuele-15852912/
   moderators:
     - name: Daniel Dufour
       position: CEO - GeoSurge
+      link: https://www.linkedin.com/in/danieljdufour/
 - title: "Lightning Talk<br/><br/>The Opportunity Project: Earth Sprints"
   start_time: "1:05 PM"
   end_time: "1:15 PM"

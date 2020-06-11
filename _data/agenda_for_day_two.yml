@@ -17,13 +17,17 @@
     - title: Introduction to GeoServer and MapStore
       description: >
         Introduction to GeoServer 9:00-10:30
+        <br/>
+        <b>Led by Andrea Aime</b>
         <br/><br/>
         This workshop will provide the basic information to get you started with confidence in using GeoServer, by covering: 1) Getting to know the GeoServer, 2) OGC Services implementations, 3) Setting up vector and raster data, and 4) Creating good-looking maps with the powerful style capabilities of GeoServer.
         <br/><br/>
         Introduction to MapStore  10:30-12:00
+        <br/>
+        <b>Led by Mauro Bartolomeoli</b>
         <br/><br/>
         This training will provide an introduction to creating geospatial mashups using the MapStore Open Source framework, by covering: 1) Introduction to MapStore and its main functionalities (including dashboards, and GeoStories), 2) Introduction to the MapStore framework, with description of the various building blocks, 3) Installation and configuration of the MapStore framework.
-      instructor: Andrea Aime and the GeoSolutions Team
+      instructor: Andrea Aime, Mauro Bartolomeoli and the GeoSolutions Team
     - title: Make Your Data Work in Cesium
       description: >
         In this one hour session the following topics will be covered:
