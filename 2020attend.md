@@ -43,4 +43,4 @@ To participate in a Hands-On Day session [you must be registered for each sessio
 
 ### [The Opportunity Project Link 1:00 pm - 4:00 pm](https://zoom.us/j/92150938781)
 
-## [#GeoBeers 4:00 pm](https://fedgeo.us/geobeers)
+## [#GeoBeers 4:00 pm](https://zoom.us/j/91645972269)

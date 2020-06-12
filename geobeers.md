@@ -5,4 +5,4 @@ layout: nil
 
 # GeoBeers will begin at 4 pm EST
 
-## It's not time yet :)
+## [#GeoBeers 4:00 pm](https://zoom.us/j/91645972269)
