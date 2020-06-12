@@ -37,8 +37,8 @@ There will be workshops, discussions, and presentations going on using three Zoo
 
 To participate in a Hands-On Day session [you must be registered for each session individually](https://fedgeo.us/#register).
 
-### [Morning Sessions Link](https://zoom.us/j/96051879193)
+### [Morning Sessions Link 9:00 am -12:00 pm](https://zoom.us/j/96051879193)
 
-### [Afternoon Sessions Link](https://zoom.us/j/91645972269)
+### [Afternoon Sessions Link 1:00 pm - 4:00 pm](https://zoom.us/j/91645972269)
 
-### [The Opportunity Project Link](https://zoom.us/j/91268617219)
+### [The Opportunity Project Link 1:00 pm - 4:00 pm](https://zoom.us/j/91268617219)
