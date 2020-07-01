@@ -1,10 +1,9 @@
 url: https://fedgeo.us
-# baseurl: /fedgeo.us
 
 # Site settings
 title: FedGeoDay
-year: 2019
-email: osgeo@technocation.org
+year: 2020
+email: help@osgeo.us
 description: "Open Source Geospatial in the Federal Government"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
