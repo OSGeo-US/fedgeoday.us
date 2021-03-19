@@ -967,3 +967,6 @@ body {
     padding:10px;
     margin-bottom: 0px
 }
+.highlight-new{
+   background: #{{ site.data.template.color.primary }};
+}
