@@ -1,8 +1,12 @@
 title: FedGeoDay
-year: 2020
+year: 2021
 email: help@osgeo.us
 description: "Open Source Geospatial in the Federal Government"
 
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 exclude: ["Gemfile", "README.md"]
 
