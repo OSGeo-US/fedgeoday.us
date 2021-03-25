@@ -39,3 +39,4 @@ Icon
 vendor/
 .bundle
 *.swp
+.jekyll-cache
