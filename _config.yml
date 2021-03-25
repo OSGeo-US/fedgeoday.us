@@ -38,9 +38,9 @@ jekyll-archives:
 # Website language
 lang: en-US
 # Header Title
-header-title: in the Federal Government
+header-title: Open Source Geospatial
 # Header Tagline
-header-tagline: Open Source Geospatial
+header-tagline: in the Federal Government
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -48,13 +48,13 @@ header-tagline: Open Source Geospatial
 
 # Focus Buttons
 header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  title: Register
+  url: 
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Watch
+  url: 
 
 
 # Offer Banner Link
