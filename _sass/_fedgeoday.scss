@@ -1,3 +1,15 @@
+$orange: #fdaf17;
+
 .fedgeoday-title {
   color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.orange-text-shadow {
+  text-shadow: 1px 1px $orange;
+}
+
+.black-text-shadow {
+  text-shadow: 2px 2px black;
 }
