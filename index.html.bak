@@ -3,10 +3,9 @@ layout: default
 title: FedGeoDay 2021
 ---
 
+<!--
+{% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span> is your last template theme ever!" button-text="Buy Now" %}
 
-{% include sections/offer.html offer-text="Please click here if you would like to see last years content" button-text="FedGeoDay 2020" %}
-
-{% comment %}
 {% include sections/about.html %}
 
 {% include sections/features.html %}
@@ -30,4 +29,4 @@ title: FedGeoDay 2021
 {% include sections/contact.html %}
 
 {% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span> is here, download now!" button-text="Buy Now" %}
-{% endcomment %}
+-->
