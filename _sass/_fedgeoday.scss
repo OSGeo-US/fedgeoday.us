@@ -13,3 +13,8 @@ $orange: #fdaf17;
 .black-text-shadow {
   text-shadow: 2px 2px black;
 }
+
+// hide hamburger menu
+.toggle-menu {
+  display: none !important;
+}
