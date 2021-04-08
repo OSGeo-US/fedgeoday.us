@@ -21,7 +21,7 @@
     <!-- Team Members -->
     <div class="row team-members-container">
 
-      {% for member in site.team %}
+      {% for member in site.data.team %}
 
       <!-- Member -->
       <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
@@ -34,12 +34,10 @@
             <h4 class="tagline">{{ member.tagline }}</h4>
             <div class="social-icons">
               <ul class="icons">
-                <li><a href="{{ member.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>
-                <li><a href="{{ member.pinterest }}" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
-                <li><a href="{{ member.facebook }}" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
-                <li><a href="{{ member.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
-                <li><a href="{{ member.google-plus }}" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
-                <li><a href="{{ member.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li>
+                {% if member.linkedin %}<li><a href="{{ member.linkedin }}" target="_blank"><i class="fi flaticon-linkedin"></i></a></li>{% endif %}
+                {% if member.twitter %}<li><a href="{{ member.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>{% endif %}
+                {% if member.youtube %}<li><a href="{{ member.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>{% endif %}
+                {% if member.vimeo %}<li><a href="{{ member.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li>{% endif %}
               </ul>
             </div>
           </div>
