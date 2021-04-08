@@ -1,0 +1,54 @@
+- name: Eddie Pickle
+  tagline: Sr. Director<br/>Maxar Technologies
+  avatar: eddie-pickle.jpg
+  linkedin: 'https://www.linkedin.com/in/eddie-pickle-b67545/'
+  twitter: 'https://twitter.com/eddie_pickle'
+
+- name: Guido Stein
+  tagline: Geospatial Data Engineer<br/>Liveby
+  avatar: guido-stein.jpg
+  linkedin: 'https://www.linkedin.com/in/guidostein/'
+  twitter: 'https://twitter.com/guidos'
+
+- name: Aaron Kelley
+  tagline: President</br>UpSlope Advisors
+  avatar: aaron-kelley.jpg
+  linkedin: https://www.linkedin.com/in/aaron-kelley-1198887
+
+- name: Daniel Dufour
+  tagline: CEO<br/>GeoSurge
+  avatar: daniel-dufour.jpg
+  twitter: https://twitter.com/DanielJDufour
+  github: https://github.com/DanielJDufour
+  linkedin: https://www.linkedin.com/in/danieljdufour
+  medium: https://medium.com/@DanielJDufour
+
+- name: Josh Sisskind
+  tagline: Senior Manager</br>Maxar Technologies
+  avatar: josh-sisskind.jpg
+  linkedin: https://www.linkedin.com/in/joshuasisskind
+  twitter: https://twitter.com/sisskindj
+  github: https://github.com/sisskind
+
+- name: Luis Bermudez
+  tagline: CEO<br/>GeoSolutions USA
+  avatar: luis-bermudez.jpg
+  twitter: https://twitter.com/berdez
+  linkedin: https://www.linkedin.com/in/bermudez
+
+- name: Maggie Cawley
+  tagline: Executive Director<br/>OpenStreetMap US
+  avatar: maggie-cawley.jpg
+  linkedin: https://www.linkedin.com/in/maggiecawley/
+  twitter: https://twitter.com/MaggieMaps
+  github: https://github.com/mcawley
+
+- name: Sophia B Liu, Ph.D.
+  tagline: Dir. of Open Innovation</br>U.S. Geological Survey and the Department of Health and Human Services
+  avatar: sophia-liu.png
+  twitter: https://twitter.com/sophiabliu
+
+
+- name: Stephen Gillotte
+  tagline: CEO<br/>Reinventing Geospatial, Inc.
+  avatar: steve-gillotte.jpg
