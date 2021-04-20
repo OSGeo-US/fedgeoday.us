@@ -38,9 +38,9 @@ jekyll-archives:
 # Website language
 lang: en-US
 # Header Title
-header-title: Open Source Geospatial
+header-title: FedGeoDay 2021
 # Header Tagline
-header-tagline: in the Federal Government
+header-tagline: Open Source Geospatial in the Federal Government
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -49,7 +49,7 @@ header-tagline: in the Federal Government
 # Focus Buttons
 header-focus-button:
   title: Register
-  url: 
+  url: https://www.eventbrite.com/e/fedgeoday-2021-tickets-151635689429
 
 # Secondary Buttons
 header-secondary-button:
@@ -116,8 +116,8 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: FedGeoDay 2021
+about-description: FedGeoDay is THE event devoted to "open geospatial ecosystems" (open source software, open/collaborative mapping, open science challenges and open engagements) that are used to initiate and grow capabilities across the U.S. federal government. This live, online conference brings together federal program managers, technology leaders, industry partners, NGOs, and many others to gather and share ideas, learn, and network.
 
 
 #####################################
