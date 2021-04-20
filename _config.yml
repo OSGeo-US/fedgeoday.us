@@ -132,18 +132,18 @@ features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 features:
 
 # Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: June 8 "Program Day" 
+  description: Plenary presentations, panel discussions, and lightning talks by leading experts.
   icon: pe-7s-vector
 
 # Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: June 9 “Hands On Day”
+  description: Extensive set of training opportunities on leading open source technologies.
   icon: pe-7s-help2
 
 # Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Community Conversation 
+  description: Ask speakers questions and join the conversation!
   icon: pe-7s-airplay
 
 
