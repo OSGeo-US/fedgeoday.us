@@ -1,40 +1,3 @@
-- name: Eddie Pickle
-  tagline: Sr. Director<br/>Maxar Technologies
-  avatar: eddie-pickle.jpg
-  linkedin: 'https://www.linkedin.com/in/eddie-pickle-b67545/'
-  twitter: 'https://twitter.com/eddie_pickle'
-
-- name: Guido Stein
-  tagline: Geospatial Data Engineer<br/>Liveby
-  avatar: guido-stein.jpg
-  linkedin: 'https://www.linkedin.com/in/guidostein/'
-  twitter: 'https://twitter.com/guidos'
-
-- name: Aaron Kelley
-  tagline: President</br>UpSlope Advisors
-  avatar: aaron-kelley.jpg
-  linkedin: https://www.linkedin.com/in/aaron-kelley-1198887
-
-- name: Adam Timm
-  tagline: Enterprise Account Executive - DoD<br/>Crunchy Data
-  avatar: adam-timm.jpg
-  linkedin: https://www.linkedin.com/in/adamtimm/
-
-- name: Daniel Dufour
-  tagline: CEO<br/>GeoSurge
-  avatar: daniel-dufour.jpg
-  twitter: https://twitter.com/DanielJDufour
-  github: https://github.com/DanielJDufour
-  linkedin: https://www.linkedin.com/in/danieljdufour
-  medium: https://medium.com/@DanielJDufour
-
-- name: Josh Sisskind
-  tagline: Senior Manager</br>Maxar Technologies
-  avatar: josh-sisskind.jpg
-  linkedin: https://www.linkedin.com/in/joshuasisskind
-  twitter: https://twitter.com/sisskindj
-  github: https://github.com/sisskind
-
 - name: Luis Bermudez
   tagline: CEO<br/>GeoSolutions USA
   avatar: luis-bermudez.jpg
@@ -48,15 +11,51 @@
   twitter: https://twitter.com/MaggieMaps
   github: https://github.com/mcawley
 
-- name: Sophia B Liu, Ph.D.
-  tagline: Open Innovation Dir.</br>U.S. Geological Survey and the Department of Health and Human Services
-  avatar: sophia-liu.png
-  twitter: https://twitter.com/sophiabliu
-  linkedin: https://www.linkedin.com/in/sophiabliu/
-
+- name: Daniel Dufour
+  tagline: CEO<br/>GeoSurge
+  avatar: daniel-dufour.jpg
+  twitter: https://twitter.com/DanielJDufour
+  github: https://github.com/DanielJDufour
+  linkedin: https://www.linkedin.com/in/danieljdufour
+  medium: https://medium.com/@DanielJDufour
 
 - name: Stephen Gillotte
   tagline: CEO<br/>Reinventing Geospatial, Inc.
   avatar: steve-gillotte.jpg
   linkedin: https://www.linkedin.com/in/sgillotte/
   twitter: https://twitter.com/stephengillotte
+
+- name: Aaron Kelley
+  tagline: President</br>UpSlope Advisors
+  avatar: aaron-kelley.jpg
+  linkedin: https://www.linkedin.com/in/aaron-kelley-1198887
+
+- name: Sophia B Liu, Ph.D.
+  tagline: Open Innovation Dir.</br>U.S. Geological Survey and the Department of Health and Human Services
+  avatar: sophia-liu.png
+  twitter: https://twitter.com/sophiabliu
+  linkedin: https://www.linkedin.com/in/sophiabliu/
+
+- name: Eddie Pickle
+  tagline: Sr. Director<br/>Maxar Technologies
+  avatar: eddie-pickle.jpg
+  linkedin: 'https://www.linkedin.com/in/eddie-pickle-b67545/'
+  twitter: 'https://twitter.com/eddie_pickle'
+
+- name: Josh Sisskind
+  tagline: Senior Manager</br>Maxar Technologies
+  avatar: josh-sisskind.jpg
+  linkedin: https://www.linkedin.com/in/joshuasisskind
+  twitter: https://twitter.com/sisskindj
+  github: https://github.com/sisskind
+
+- name: Guido Stein
+  tagline: Geospatial Data Engineer<br/>Liveby
+  avatar: guido-stein.jpg
+  linkedin: 'https://www.linkedin.com/in/guidostein/'
+  twitter: 'https://twitter.com/guidos'
+
+- name: Adam Timm
+  tagline: Enterprise Account Executive - DoD<br/>Crunchy Data
+  avatar: adam-timm.jpg
+  linkedin: https://www.linkedin.com/in/adamtimm/
