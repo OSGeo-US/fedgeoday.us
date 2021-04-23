@@ -127,6 +127,7 @@ header.site-header {
     .heading-content {
       width: 100%;
       text-transform: uppercase;
+      z-index: 99;
 
       .heading-title {
         hr.small {
