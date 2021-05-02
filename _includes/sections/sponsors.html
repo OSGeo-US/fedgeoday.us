@@ -1,0 +1,71 @@
+<!-- Keynote Section -->
+<section class="site-section about-section next-section-indicator" id="sponsors">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="section-header">
+        <h2>Sponsors</h2>
+        <hr class="normal">
+      </header>
+
+      {% assign hosts = site.data.sponsors | where: "level","host" | sort: 'lowercase_name' %}
+      {% for host in hosts %}
+      <div class="sponsor-row">
+          <a href="{{host._url}}">
+              <img src="images/sponsors/{{host.img}}" alt="{{host._name}} Logo">
+          </a>
+      </div>
+      {% endfor %}
+
+      {% assign platinum_sponsors = site.data.sponsors | where: "level","platinum" | sort: 'lowercase_name' %}
+      {% if platinum_sponsors.size > 0 %}
+      <div class="sponsor-row">
+        <h2 class="section-heading">Platinum Sponsors</h2>
+        {% for sponsor in platinum_sponsors %}
+        <a href="{{sponsor._url}}">
+            <img src="images/sponsors/{{sponsor.img}}" alt="{{sponsor._name}} Logo">
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}      
+
+
+      {% assign gold_sponsors = site.data.sponsors | where: "level","gold" | sort: 'lowercase_name' %}
+      {% if gold_sponsors.size > 0 %}
+      <div class="sponsor-row">
+          <h2 class="section-heading">Gold Sponsors</h2>
+          {% for sponsor in gold_sponsors %}
+          <a href="{{sponsor._url}}">
+            <img src="images/sponsors/{{sponsor.img}}" alt="{{sponsor._name}} Logo">
+        </a>
+          {% endfor %}
+      </div>
+      {% endif %}      
+    </div>
+
+    {% assign silver_sponsors = site.data.sponsors | where: "level","silver" | sort: 'lowercase_name' %}
+    {% if silver_sponsors.size > 0 %}
+      <div class="sponsor-row">
+          <h2 class="section-heading">Silver Sponsors</h2>
+          {% for sponsor in silver_sponsors %}
+          <a href="{{sponsor._url}}">
+            <img src="images/sponsors/{{sponsor.img}}" alt="{{sponsor._name}} Logo">
+        </a>
+          {% endfor %}
+      </div>
+    {% endif %} 
+  
+    {% assign bronze_sponsors = site.data.sponsors | where: "level","bronze" | sort: 'lowercase_name' %}
+    <div class="sponsor-row">
+        <h2 class="section-heading">Bronze Sponsors</h2>
+        {% for sponsor in bronze_sponsors %}
+        <a href="{{sponsor._url}}">
+          <img src="images/sponsors/{{sponsor.img}}" alt="{{sponsor._name}} Logo">
+        </a>
+        {% endfor %}
+    </div>
+  </div>
+</section>
