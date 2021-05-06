@@ -28,7 +28,11 @@ $orange: #fdaf17;
       display: inline-block;
       margin: 50px 50px;
       max-height: 200px;
-      max-width: 500px;  
+      max-width: 500px; 
+      
+      @media screen and (max-width: 800px) {
+        max-width: calc(100% - 100px);
+      }
     }  
   }
 }
