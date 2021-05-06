@@ -33,15 +33,32 @@ $orange: #fdaf17;
   }
 }
 
-.cover-attribution {
-  bottom: 30px;
-  color: #ffcb2e;
-  position: absolute;
-  right: 30px;
 
-  @media (max-width: 750px) {
-    bottom: 15px;
-    font-size: 12px;
-    right: 15px;
+#home {
+  .cover-attribution {
+    bottom: 30px;
+    color: #ffcb2e;
+    position: absolute;
+    right: 30px;
+  
+    @media (max-width: 750px) {
+      bottom: 15px;
+      font-size: 12px;
+      right: 15px;
+    }
+  }
+  
+  .title-break {
+    display: none;
+    @media (max-width: 800px) {
+      display: block;
+    }
+  }
+  
+  .title-bar {
+    display: inline-block;
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
 }
