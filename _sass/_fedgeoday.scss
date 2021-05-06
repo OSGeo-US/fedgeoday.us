@@ -32,3 +32,16 @@ $orange: #fdaf17;
     }  
   }
 }
+
+.cover-attribution {
+  bottom: 30px;
+  color: #ffcb2e;
+  position: absolute;
+  right: 30px;
+
+  @media (max-width: 750px) {
+    bottom: 15px;
+    font-size: 12px;
+    right: 15px;
+  }
+}
