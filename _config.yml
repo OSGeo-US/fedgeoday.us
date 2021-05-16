@@ -146,73 +146,117 @@ features:
   description: Ask speakers questions and join the conversation!
   icon: pe-7s-airplay
 
-
 #####################################
-############  Portfolio  ############
+############  Program  ############
 #####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
-
-#
-# Portfolio Grid
-#
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
-portfolio:
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
-
+program-title: Program
+program-description: Here are all the sessions.
+program-categories: [Lightning, Plenary, Session, Social, Workshop]
+program:
+- time: 08:00 AM
+  categories: [Social]
+  title: Networking & Coffee
+  description: Join us in the lounge to meet others and discuss topics and network.
+  mc: 
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  participants: 
+  moderators: 
+- time:	09:00 AM
+  categories: [Plenary]
+  title:	Welcome Remarks
+  description: 
+  mc:
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  moderator:
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  participants: 
+  moderators: 
+- time:	09:10 AM
+  categories: [Plenary]
+  title: "Executive Roundtable:  Building Federal Programs Through Open Ecosystems"
+  mc:
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  moderator:
+  - name: Joshua Campbell, Ph.D
+    title: CEO
+    org: Sand Hill Geographics
+  participants:
+  - name: Nadine Alameh
+    title: Executive Director
+    org: Open Geospatial Consortium
+  - name: Luis Bermudez
+    title: CEO
+    org: GeoSolutions USA
+  - name: Maggie Cawley
+    title: Executive Director
+    org: OpenStreetMap US
+  - name: Tod Dabolt
+    title: Chief Data Officer & GIO
+    org: U.S. Department of the Interior
+  - name: Drew Zachary
+    title: Director
+    org: The Opportunity Project (U.S. Census Bureau)
+- time:	10:00 AM
+  categories: [Plenary]
+  title:	Keynote Speaker
+  mc:	
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  participants:
+  - name: Chelle Gentemann, Ph.D
+    title: Senior Scientist
+    org: Farallon Institute
+- time:	10:45 AM	
+  categories: [Lightning]
+  title:	Lightning Talks
+  mc:
+  - name: Eddie Pickle
+    title: Senior Director
+    org: Maxar Technologies
+  participants:	
+  - org: U.S. Department of the Interior
+  - org: SpaceNet.ai
+- time:	11:00 AM
+  categories: [Plenary]
+  title:	Assuring Federal Program Open Source Software & Map Data Supply Chains
+  mc:
+  - name: Carter Christopher, Ph.D
+    title: Section Head, Human Dynamics R&D
+    org: Oak Ridge National Laboratory
+  moderator:	
+  - name: John Scott
+    title: CEO
+    org: Ion Channel
+  participants:	
+  - name: Dan Risacher
+    title: Policy Wonk
+    org: Department of Defense
+  - name: Ken Kato
+    title: Entrepreneur In Residence
+    org: Navy DWO
+  - name: Michal Migurski
+    title: Engineering Manager
+    org: Facebook Maps
+- time: 11:45 AM
+  categories: [Lightning]
+  title:	Lightning Talks
+  mc:
+  - name: Carter Christopher, Ph.D
+    title: Section Head, Human Dynamics R&D
+    org: Oak Ridge National Laboratory
+  participants:
+  - name: Mike Byrne
+    org: Conexon
+  - org: Element84
 
 #####################################
 ##########  Core Features  ##########
