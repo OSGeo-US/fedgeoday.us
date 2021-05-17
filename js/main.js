@@ -70,13 +70,13 @@
     });
 
     /**
-     *  Portfolio
+     *  Program
      **/
     var $filter_menu_item = $('.filter-menu ul li');
-    var $portfolio_grid = $('.portfolio-grid');
-    var $portfolio_grid_item = $portfolio_grid.children(".item");
-    var $overlay = $portfolio_grid.children("#overlay");
-    var $img = '<img alt="Portfolio Overlay Image" />';
+    var $program_grid = $('.program-grid');
+    var $program_grid_item = $program_grid.children(".item");
+    var $overlay = $program_grid.children("#overlay");
+    var $img = '<img style="width:80%"alt="Background Image" />';
     var $data_filters = null;
 
     // Filter Menu
@@ -89,28 +89,45 @@
       // Collecting Data Filters
       $data_filters = $(this).data('filter');
 
-      // Hide All Portfolio Items
+      // Hide All program Items
       if($data_filters == 'all') {
-        $portfolio_grid_item.addClass('visible');
+        $program_grid_item.addClass('visible');
       }
-      else { // Show Portfolio Items from filter
-        $portfolio_grid_item.removeClass('visible');
+      else { // Show program Items from filter
+        $program_grid_item.removeClass('visible');
         $($data_filters).addClass('visible');
       }
 
     });
 
     // Show Image - Lightbox
-    $portfolio_grid_item.find(".item-expand").on('click', function(e) {
+    $program_grid_item.find(".item-expand").on('click', function(e) {
 
       // Prevent Default Link Event
       e.preventDefault();
 
       // Get Image Link
       var $src = $(this).attr("href");
+      var data = JSON.parse($(this).attr("data").split('=>').join(':').split('nil').join('\"\"'))
 
       // Create Image on the DOM
       $overlay.append($img);
+      function mc(data){
+        return data
+          .forEach(i => {JSON.stringify(i)})
+          .join(',');
+      };
+      $overlay.append(`
+      <div style="position: relative; text-align: center; color: white;"></div>
+      <div style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <h3>${data.time}</h3>
+      <h3>${data.title}</h3>
+      <p>${data.description}</p>
+      <p>${JSON.stringify(data.mc)}</p>
+      <p>${JSON.stringify(data.moderator)}</p>
+      <p>${JSON.stringify(data.participants)}</p>
+      </div>
+      `);
 
       // Show Overlay Image
       $overlay.fadeIn(200).children("img").attr("src", $src);
@@ -167,8 +184,8 @@
         }
       }
 
-      // Portfolio Reveal Images
-      revealItem($portfolio_grid, $portfolio_grid_item);
+      // program Reveal Images
+      revealItem($program_grid, $program_grid_item);
 
     });
 

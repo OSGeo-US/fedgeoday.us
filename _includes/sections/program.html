@@ -29,77 +29,28 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Grid -->
-    <div class="row portfolio-grid">
 
+    <!-- Program Grid -->
+    <div class="row program-grid">
       {% for item in site.program %}
 
-      <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} 
-      {{ category | replace:' ','-' | downcase }}
-      {% endfor %}">
+      <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
         <figure class="img-wrap">
-          <img src="{{ site.baseurl }}/images/program/{{ item.categories | first }}.jpg" alt="Portfolio Item Image" />
+          <img src="{{ site.baseurl }}/images/program/{{ item.categories | first }}.jpg" alt="{{ item.categories | first }} Item Image" />
         </figure>
-        <div class="item-content">
+        <div class="item-title">
+          <h3>{{ item.time }}</h3>
+          <br />
           <h3>{{ item.title }}</h3>
-          <h4>{{ item.categories | first }}</h4>
-          <div class="links">
-            <ul>
-              <li><a href="{{ item.url }}" class="item-link"><i class="pe-7s-link"></i></a></li>
-              <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li>
-              <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
-            </ul>
-          </div>
+        </div>
+        <div class="item-content">
+          <a href="{{ site.baseurl }}/images/program/{{ item.categories | first }}.jpg" class="item-expand" data= "{{ item | xml_escape }}">Get More Information</a>
+          <!-- {% for part in item.participants %} 
+            {% if part.name %}{{part.name}},{% endif %} {% if part.title %}{{part.title}},{% endif %} {% if part.org %}{{part.org}}{% endif %}<br />{% endfor%} -->
         </div>
       </div>
 
       {% endfor %}
-
-    <!-- Program Grid -->
-    <!-- <div class="row program-grid">
-      {% for item in site.program %}
-
-      <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
-      {% if item.categories contains "Plenary" %}
-        <div class="item-content" style="padding:10px; background-color: #21c2f8;">
-      {% elsif item.categories contains "Lightning" %}
-        <div class="item-content" style="padding:10px; background-color: #f7f137;">
-      {% elsif item.categories contains "Social" %}
-          <div class="item-content" style="padding:10px; background-color: #f58e14;">
-      {% else %}
-        <div class="item-content" style="padding:10px;">
-      {% endif %}
-          <h2>----------</h2>
-          <h2>{{ item.time }}</h2>
-          <h2>----------</h2>
-          <h3>{{ item.title }}</h3>
-          <h4>{{ item.categories | first }}</h4>
-          {% if item.mc %}
-          <p>
-            <strong>MC</strong>
-            {% for mc in item.mc %}
-            <br />{{mc.name}} <br />&nbsp;&nbsp;&nbsp;&nbsp;{{mc.title}} <br />&nbsp;&nbsp;&nbsp;&nbsp;{{mc.org}} {% endfor %}
-          </p>
-          {% endif %} {% if item.moderator %}
-          <p>
-            <strong>Moderator</strong>
-            {% for mod in item.moderator %}
-            <br />{{mod.name}} <br />&nbsp;&nbsp;&nbsp;&nbsp;{{mod.title}} <br />&nbsp;&nbsp;&nbsp;&nbsp;{{mod.org}} {% endfor %}
-          </p>
-          {% endif %} {% if item.participants %}
-          <p>
-            <strong>Participants</strong>
-            {% for participant in item.participants %}
-              {% if participant.name %}<br />{{participant.name}}{% endif %}
-              {% if participant.title %}<br />&nbsp;&nbsp;&nbsp;&nbsp;{{participant.title}}{% endif %}
-              {% if participant.org %}<br />&nbsp;&nbsp;&nbsp;&nbsp;{{participant.org}}{% endif %}
-            {% endfor %}
-          </p>
-          {% endif %}
-        </div>
-      </div>
-
-      {% endfor %} -->
 
       <!-- Overlay Lightbox -->
       <div id="overlay" class="overlay"></div>
