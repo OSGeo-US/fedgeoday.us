@@ -1,0 +1,195 @@
+---
+program-title: Program
+program-description: Here are all the sessions.
+program-categories:
+  - Lightning
+  - Plenary
+  - Session
+  - Social
+  - Workshop
+program:
+  - title: Networking & Coffee
+    categories:
+      - Social
+    description: Join us in the lounge to meet others and discuss topics and network.
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: '08:00 AM'
+
+  - title: Welcome Remarks
+    categories:
+      - Plenary
+    description:
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: '09:00 AM'
+
+  - title: 'Executive Roundtable: Building Federal Programs Through Open Ecosystems'
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Joshua Campbell, Ph.D
+    organizations:
+    participants:
+      - Nadine Alameh
+      - Luis Bermudez
+      - Maggie Cawley
+      - Tod Dabolt
+      - Drew Zachary
+    time: '09:10 AM'
+
+  - title: Keynote Speaker
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+      - Chelle Gentemann, Ph.D
+    time: 10:00 AM
+
+  - title: Lightning Talks 1
+    categories:
+      - Lightning
+    mc:
+      - Eddie Pickle
+    moderator:
+    participants:
+    presentations:
+      - title: U.S. Department of the Interior Image Data Manager
+        name: David Carter
+        org: U.S. Department of the Interior
+      - title: Open Science Challenges to Build the AI/ML Ecosystem
+        name:
+        org: SpaceNet.ai
+    time: 10:45 AM
+
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+      - John Scott
+    organizations:
+    participants:
+      - Dan Risacher
+      - Ken Kato
+      - Michal Migurski
+    time: 11:00 AM
+
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Building Rural Broadband Using Open Source
+        name: Mike Byrne
+        org: Conexon
+      - title: 'Oak Ridge National Lab:  USA Structures Open Data Program'
+        name: Mark Tuttle and Melanie Laverdiere
+        org:
+    time: 11:45 AM
+
+  - title: Break
+    categories:
+      - Break
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 12:00 PM
+
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 11:00 AM
+
+  - title: Tackling Geospatial Challenges Through Open Innovation Models within Federal
+      Agencies
+    categories:
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Anna Valuev
+    organizations:
+    participants:
+      - Lorena Molina-Irizarry
+      - Sophia B Liu, Ph.D.
+      - Lynda Liptrap
+      - Vincent Osier
+    time: 12:15 PM
+
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Implementing the SSGF (Standard Shareable Geospatial Foundation)
+        name:
+        org: Reinventing Geospatial Inc.
+      - title: Geospatial in your Apache Kafka Event Streams
+        name: Will LaForest
+        org: Confluent
+      - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
+        name: Chad Blevins
+        org: Critigen
+      - title: "CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog"
+        name:
+        org: Element84
+      - title: 'FCSM Geospatial Interest Group: Tools, Data, and More'
+        name: Wendy Martinez
+        org: Bureau of Labor Statistics
+    time: 12:15 PM
+
+  - title: Finding FOSS4G Solutions for Building Federal Programs
+    categories:
+      - Session
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Luis Bermudez
+    organizations:
+    participants:
+      - Arwen De la Torre
+      - Calvin Hamilton
+      - Shayne Urbanowski
+      - Rich Frazier
+    time: 1:40 PM
+
+  - title: Human-in-the-Loop Active Learning AI Approach
+    categories:
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam
+    organizations:
+    participants:
+      - Martha Morrissey
+      - Drew Bower
+      - Tori Bird
+      - Tres Montano
+      - Amanda Bright
+      - Lexie Yang
+    time: 1:40 PM

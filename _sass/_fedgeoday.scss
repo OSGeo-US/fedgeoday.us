@@ -37,7 +37,6 @@ $orange: #fdaf17;
   }
 }
 
-
 #home {
   .cover-attribution {
     bottom: 30px;
@@ -65,4 +64,8 @@ $orange: #fdaf17;
       display: none;
     }
   }
+}
+
+#program #overlay img {
+  min-height: 90%;
 }
