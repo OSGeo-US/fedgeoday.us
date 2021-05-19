@@ -208,7 +208,7 @@ program:
     organizations:
     participants:
       - Ben Foster
-      - Nathan McEachen 
+      - Nathan McEachen
       - Rich Fecher
       - Caci/Bits
       - Paul Ramsey
@@ -272,7 +272,7 @@ program:
     categories:
       - Workshop
     description: >
-      This training will provide an introduction to Open Source Geospatial Platform using MapStore and GeoNode, by covering: 1) Introduction to MapStore and its main functionalities (including dashboards, and GeoStories),  2) Introduction to GeoNode 
+      This training will provide an introduction to Open Source Geospatial Platform using MapStore and GeoNode, by covering: 1) Introduction to MapStore and its main functionalities (including dashboards, and GeoStories),  2) Introduction to GeoNode
     mc:
     moderator:
     organizations:
@@ -323,7 +323,7 @@ program:
     moderator:
     organizations:
     participants:
-      - 
+      -
     time: 2021-06-09T13:00
 
   - title: The Opportunity Project
@@ -362,4 +362,3 @@ program:
     participants:
       - Sterling Jasa-Phillips
     time: 2021-06-09T13:00
-
