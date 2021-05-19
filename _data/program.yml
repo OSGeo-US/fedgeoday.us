@@ -14,6 +14,8 @@ program:
     description: Join us in the lounge to meet others and discuss topics and network.
     mc:
       - Eddie Pickle
+      - Co-Chair, FedGeoDay 2021
+      - Senior Director, Maxar Technologies
     moderator:
     organizations:
     participants:
@@ -37,13 +39,14 @@ program:
       - Eddie Pickle
     moderator:
       - Joshua Campbell, Ph.D
+      - CEO, Sand Hill Geographics
     organizations:
     participants:
-      - Nadine Alameh
-      - Luis Bermudez
-      - Maggie Cawley
-      - Tod Dabolt
-      - Drew Zachary
+      - Nadine Alameh,Executive Director, Open Geospatial Consortium
+      - Luis Bermudez. CEO, GeoSolutions USA
+      - Maggie Cawley, Executive Director, OpenStreetMap US
+      - Tod Dabolt, Chief Data Officer, Office of the CIO, Office of the Secretary, U.S. Department of the Interior
+      - Drew Zachary, Managing Director, Census Open Innovation Labs | Director of The Opportunity Project (U.S. Census Bureau)
     time: 2021-06-08T09:10
 
   - title: Keynote Speaker
@@ -54,7 +57,7 @@ program:
     moderator:
     organizations:
     participants:
-      - Chelle Gentemann, Ph.D
+      - Chelle Gentemann, Ph.D, Senior Scientist, Farallon Institute
     time: 2021-06-08T10:00
 
   - title: Lightning Talks 1
@@ -66,10 +69,10 @@ program:
     participants:
     presentations:
       - title: U.S. Department of the Interior Image Data Manager
-        name: David Carter
+        name: David Carter, Chief, Geospatial Information Services, Office of Surface Mining Reclamation and Enforcement
         org: U.S. Department of the Interior
       - title: Open Science Challenges to Build the AI/ML Ecosystem
-        name:
+        name: Todd Bacastow, Maxar Technologies
         org: SpaceNet.ai
     time: 2021-06-08T10:45
 
@@ -77,21 +80,21 @@ program:
     categories:
       - Plenary
     mc:
-      - Carter Christopher, Ph.D
+      - Carter Christopher, Ph.D, Section Head, Human Dynamics R&D, Oak Ridge National Laboratory
     moderator:
-      - John Scott
+      - John Scott, CEO, Ion Channel
     organizations:
     participants:
-      - Dan Risacher
-      - Ken Kato
-      - Michal Migurski
+      - Dan Risacher, Policy Wonk, Office of the CIO, DoD
+      - Ken Kato, Entrepreneur In Residence @ Navy DWO, Presidential Innovation Fellow
+      - Michal Migurski, Engineering Manager, Facebook Maps
     time: 2021-06-08T11:00
 
   - title: Lightning Talks 2
     categories:
       - Lightning
     mc:
-      - Carter Christopher, Ph.D
+      - Carter Christopher
     moderator:
     organizations:
     participants:
@@ -99,7 +102,7 @@ program:
       - title: Building Rural Broadband Using Open Source
         name: Mike Byrne
         org: Conexon
-      - title: 'Oak Ridge National Lab:  USA Structures Open Data Program'
+      - title: Oak Ridge National Lab:  USA Structures Open Data Program
         name: Mark Tuttle and Melanie Laverdiere
         org:
     time: 2021-06-08T11:45
@@ -113,15 +116,6 @@ program:
     participants:
     time: 2021-06-08T12:00
 
-  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
-    categories:
-      - Plenary
-    mc:
-    moderator:
-    organizations:
-    participants:
-    time: 2021-06-08T11:00
-
   - title: Tackling Geospatial Challenges Through Open Innovation Models within Federal
       Agencies
     categories:
@@ -129,38 +123,38 @@ program:
     mc:
       - Eddie Pickle
     moderator:
-      - Anna Valuev
-    organizations:
+      - Anna Valuev, Head of Strategic Initiatives, The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
+    organizations: The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
     participants:
-      - Lorena Molina-Irizarry
-      - Sophia B Liu, Ph.D.
-      - Lynda Liptrap
-      - Vincent Osier
+      - Lorena Molina-Irizarry, Director of Operations, The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
+      - Sophia B Liu, Ph.D., Open Innovation Director and Coordinator, On Detail to InnovationX Team, Office of the Assistant Secretary of Health (OASH)
+      - U.S. Department of Health and Human Services (HHS) 
+      - Lynda Liptrap, GEO Division, U.S. Census Bureau
+      - Vincent Osier, GEO Division, U.S. Census Bureau
     time: 2021-06-08T12:15
 
-  - title: Lightning Talks 2
+  - title: Lightning Talks 3
     categories:
       - Lightning
     mc:
-      - Carter Christopher, Ph.D
+      - Carter Christopher 
     moderator:
     organizations:
     participants:
     presentations:
-      - title: Implementing the SSGF (Standard Shareable Geospatial Foundation)
+      - title: Standard and Shareable Geospatial Foundation (SSGF) – The Solution for a Common Map
         name:
         org: Reinventing Geospatial Inc.
       - title: Geospatial in your Apache Kafka Event Streams
-        name: Will LaForest
+        name: Will LaForest, Public Sector CTO
         org: Confluent
       - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
         name: Chad Blevins
         org: Critigen
-      - title: >
-          CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog
-        name:
+      - title: CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog
+        name:  Matt Hanson
         org: Element84
-      - title: 'FCSM Geospatial Interest Group: Tools, Data, and More'
+      - title: FCSM Geospatial Interest Group: Tools, Data, and More
         name: Wendy Martinez
         org: Bureau of Labor Statistics
     time: 2021-06-08T13:15
@@ -174,10 +168,10 @@ program:
       - Luis Bermudez
     organizations:
     participants:
-      - Arwen De la Torre
-      - Calvin Hamilton
-      - Shayne Urbanowski
-      - Rich Frazier
+      - Arwen De la Torre, NGA
+      - Calvin Hamilton, U.S. Government
+      - Shayne Urbanowski, USGS
+      - Monica Mardel, U.S. Census Bureau
     time: 2021-06-08T13:40
 
   - title: Human-in-the-Loop Active Learning AI Approach
@@ -186,15 +180,15 @@ program:
     mc:
       - Carter Christopher
     moderator:
-      - Chitra Sivanandam
+      - Chitra Sivanandam, CTO, Reinventing Geospatial, Inc. (RGi)
     organizations:
     participants:
-      - Martha Morrissey
-      - Drew Bower
-      - Tori Bird
-      - Tres Montano
-      - Amanda Bright
-      - Lexie Yang
+      - Martha Morrissey, DevelopmentSeed
+      - Drew Bower, Maxar Technologies
+      - Tori Bird, RGi
+      - Tres Montano, NGA
+      - Amanda Bright, NGA
+      - Lexie Yang, ORNL
     time: 2021-06-08T13:40
 
   - title: >
@@ -204,14 +198,14 @@ program:
     mc:
       - Eddie Pickle
     moderator:
-      - Aaron Kelley
+      - Aaron Kelley, CEO, Upslope Advisors
     organizations:
     participants:
-      - Ben Foster
-      - Nathan McEachen
-      - Rich Fecher
-      - Caci/Bits
-      - Paul Ramsey
+      - Ben Foster, NGA
+      - Nathan McEachen, TerraFrame
+      - Rich Fecher, Maxar Technologies
+      - Jeff Ocker, U.S. Census Bureau
+      - Paul Ramsey, Crunchy Data
     time: 2021-06-08T14:40
 
   - title: Open, Standardized Data and Methodologies for Federal AI/ML Programs
@@ -223,12 +217,11 @@ program:
       - Chitra Sivanandam
     organizations:
     participants:
-      - Manil Masky
-      - Hamed Alemohammad
-      - Lilly Thomas
-      - Chris Holmes
-      - Jake Shermeyer
-      - Chris Burd
+      - Manil Masky, NASA
+      - Hamed Alemohammad, Radiant Earth
+      - Lilly Thomas, Development Seed
+      - Jake Shermeyer, Capella Space
+      - Chris Burd, NGA
     time: 2021-06-08T14:40
 
   - title: Federal Agencies Innovating Through OpenStreetMap
@@ -237,13 +230,13 @@ program:
     mc:
       - Eddie Pickle
     moderator:
-      - Josh Sisskind
+      - Josh Sisskind, Senior Manager, Geospatial Platform and Tool Development, Maxar
     organizations:
     participants:
-      - Maggie Cawley
-      - Greg Matthews
-      - Jim McAndrew
-      - Derald Dudley
+      - Maggie Cawley, OSM US
+      - Greg Matthews, USGS
+      - Jim McAndrew, NPS
+      - Derald Dudley, US DOT
     time: 2021-06-08T15:40
 
   - title: Conference Wrap Up and Happy Hour Tables
@@ -253,7 +246,7 @@ program:
     moderator:
     organizations:
     participants:
-    time: 2021-06-08T16:35
+    time: 2021-06-08T16:30
 
   - title: GeoServer Training
     categories:
@@ -301,7 +294,6 @@ program:
     moderator:
     organizations:
     participants:
-      - Paul Ramsey
       - Allesandro Parma
     time: 2021-06-09T08:00
 
