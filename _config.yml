@@ -151,112 +151,200 @@ features:
 #####################################
 program-title: Program
 program-description: Here are all the sessions.
-program-categories: [Lightning, Plenary, Session, Social, Workshop]
+program-categories:
+  - Lightning
+  - Plenary
+  - Session
+  - Social
+  - Workshop
 program:
-- time: 08:00 AM
-  categories: [Social]
-  title: Networking & Coffee
-  description: Join us in the lounge to meet others and discuss topics and network.
-  mc: 
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  participants: 
-  moderators: 
-- time:	09:00 AM
-  categories: [Plenary]
-  title:	Welcome Remarks
-  description: 
-  mc:
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  moderator:
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  participants: 
-  moderators: 
-- time:	09:10 AM
-  categories: [Plenary]
-  title: "Executive Roundtable:  Building Federal Programs Through Open Ecosystems"
-  mc:
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  moderator:
-  - name: Joshua Campbell, Ph.D
-    title: CEO
-    org: Sand Hill Geographics
-  participants:
-  - name: Nadine Alameh
-    title: Executive Director
-    org: Open Geospatial Consortium
-  - name: Luis Bermudez
-    title: CEO
-    org: GeoSolutions USA
-  - name: Maggie Cawley
-    title: Executive Director
-    org: OpenStreetMap US
-  - name: Tod Dabolt
-    title: Chief Data Officer & GIO
-    org: U.S. Department of the Interior
-  - name: Drew Zachary
-    title: Director
-    org: The Opportunity Project (U.S. Census Bureau)
-- time:	10:00 AM
-  categories: [Plenary]
-  title:	Keynote Speaker
-  mc:	
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  participants:
-  - name: Chelle Gentemann, Ph.D
-    title: Senior Scientist
-    org: Farallon Institute
-- time:	10:45 AM	
-  categories: [Lightning]
-  title:	Lightning Talks
-  mc:
-  - name: Eddie Pickle
-    title: Senior Director
-    org: Maxar Technologies
-  participants:	
-  - org: U.S. Department of the Interior
-  - org: SpaceNet.ai
-- time:	11:00 AM
-  categories: [Plenary]
-  title:	Assuring Federal Program Open Source Software & Map Data Supply Chains
-  mc:
-  - name: Carter Christopher, Ph.D
-    title: Section Head, Human Dynamics R&D
-    org: Oak Ridge National Laboratory
-  moderator:	
-  - name: John Scott
-    title: CEO
-    org: Ion Channel
-  participants:	
-  - name: Dan Risacher
-    title: Policy Wonk
-    org: Department of Defense
-  - name: Ken Kato
-    title: Entrepreneur In Residence
-    org: Navy DWO
-  - name: Michal Migurski
-    title: Engineering Manager
-    org: Facebook Maps
-- time: 11:45 AM
-  categories: [Lightning]
-  title:	Lightning Talks
-  mc:
-  - name: Carter Christopher, Ph.D
-    title: Section Head, Human Dynamics R&D
-    org: Oak Ridge National Laboratory
-  participants:
-  - name: Mike Byrne
-    org: Conexon
-  - org: Element84
+  - title: Networking & Coffee
+    categories:
+      - Social
+    description: Join us in the lounge to meet others and discuss topics and network.
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T08:00
+
+  - title: Welcome Remarks
+    categories:
+      - Plenary
+    description:
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T09:00
+
+  - title: 'Executive Roundtable: Building Federal Programs Through Open Ecosystems'
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Joshua Campbell, Ph.D
+    organizations:
+    participants:
+      - Nadine Alameh
+      - Luis Bermudez
+      - Maggie Cawley
+      - Tod Dabolt
+      - Drew Zachary
+    time: 2021-06-08T09:10
+
+  - title: Keynote Speaker
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+      - Chelle Gentemann, Ph.D
+    time: 2021-06-08T10:00
+
+  - title: Lightning Talks 1
+    categories:
+      - Lightning
+    mc:
+      - Eddie Pickle
+    moderator:
+    participants:
+    presentations:
+      - title: U.S. Department of the Interior Image Data Manager
+        name: David Carter
+        org: U.S. Department of the Interior
+      - title: Open Science Challenges to Build the AI/ML Ecosystem
+        name:
+        org: SpaceNet.ai
+    time: 2021-06-08T10:45
+
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+      - John Scott
+    organizations:
+    participants:
+      - Dan Risacher
+      - Ken Kato
+      - Michal Migurski
+    time: 2021-06-08T11:00
+
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Building Rural Broadband Using Open Source
+        name: Mike Byrne
+        org: Conexon
+      - title: 'Oak Ridge National Lab:  USA Structures Open Data Program'
+        name: Mark Tuttle and Melanie Laverdiere
+        org:
+    time: 2021-06-08T11:45
+
+  - title: Break
+    categories:
+      - Break
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T12:00
+
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T10:00
+
+  - title: Tackling Geospatial Challenges Through Open Innovation Models within Federal
+      Agencies
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Anna Valuev
+    organizations:
+    participants:
+      - Lorena Molina-Irizarry
+      - Sophia B Liu, Ph.D.
+      - Lynda Liptrap
+      - Vincent Osier
+    time: 12:15 PM
+
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Implementing the SSGF (Standard Shareable Geospatial Foundation)
+        name:
+        org: Reinventing Geospatial Inc.
+      - title: Geospatial in your Apache Kafka Event Streams
+        name: Will LaForest
+        org: Confluent
+      - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
+        name: Chad Blevins
+        org: Critigen
+      - title: "CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog"
+        name:
+        org: Element84
+      - title: 'FCSM Geospatial Interest Group: Tools, Data, and More'
+        name: Wendy Martinez
+        org: Bureau of Labor Statistics
+    time: 2021-06-08T13:15
+
+  - title: Finding FOSS4G Solutions for Building Federal Programs
+    categories:
+      - Session
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Luis Bermudez
+    organizations:
+    participants:
+      - Arwen De la Torre
+      - Calvin Hamilton
+      - Shayne Urbanowski
+      - Rich Frazier
+    time: 2021-06-08T13:40
+
+  - title: Human-in-the-Loop Active Learning AI Approach
+    categories:
+      - Session
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam
+    organizations:
+    participants:
+      - Martha Morrissey
+      - Drew Bower
+      - Tori Bird
+      - Tres Montano
+      - Amanda Bright
+      - Lexie Yang
+    time: 2021-06-08T13:40
 
 #####################################
 ##########  Core Features  ##########

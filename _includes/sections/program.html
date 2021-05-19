@@ -1,17 +1,17 @@
 <!-- Program Section -->
-<section class="site-section program-section next-section-indicator" id="program">
+<section class="site.data.program-section program-section next-section-indicator" id="program">
   <div class="container">
     <!-- Section Heading -->
     <div class="row text-center">
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.program-title }}</h2>
+        <h2>{{ site.data.program.program-title }}</h2>
         <hr class="normal" />
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.program-description }}</p>
+        <p>{{ site.data.program.program-description }}</p>
       </div>
     </div>
 
@@ -22,7 +22,7 @@
           <ul>
             <li data-filter="all" class="current">All</li>
 
-            {% for category in site.program-categories %}
+            {% for category in site.data.program.program-categories %}
             <li data-filter=".{{ category | replace:' ','-' | downcase }}">{{ category }}</li>
             {% endfor %}
           </ul>
@@ -32,21 +32,37 @@
 
     <!-- Program Grid -->
     <div class="row program-grid">
-      {% for item in site.program %}
+      {% for item in site.data.program.program %}
 
       <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
         <figure class="img-wrap">
-          <img src="{{ site.baseurl }}/images/program/{{ item.categories | first }}.jpg" alt="{{ item.categories | first }} Item Image" />
+          <img
+            src="{{ site.data.program.baseurl }}/images/program/{{ item.categories | first }}.jpg"
+            alt="{{ item.categories | first }} Item Image"
+          />
         </figure>
         <div class="item-title">
-          <h3>{{ item.time }}</h3>
+          <h3>{{ item.time | date: "%I:%M%p" }}</h3>
           <br />
           <h3>{{ item.title }}</h3>
         </div>
         <div class="item-content">
-          <a href="{{ site.baseurl }}/images/program/{{ item.categories | first }}.jpg" class="item-expand" data= "{{ item | xml_escape }}">Get More Information</a>
-          <!-- {% for part in item.participants %} 
-            {% if part.name %}{{part.name}},{% endif %} {% if part.title %}{{part.title}},{% endif %} {% if part.org %}{{part.org}}{% endif %}<br />{% endfor%} -->
+          <a
+            href="{{ site.data.program.baseurl }}/images/program/{{ item.categories | first }}.jpg"
+            class="item-expand"
+            data="
+              <h2>{{ item.title | escape }}</h2>
+              {% if item.moderator or item.mc%}
+              <p>
+                {% if item.moderator and  item.mc %} Moderator: {{ item.moderator.first | escape }}<br/>Master of ceremonies: {{ item.mc.first | escape }}
+                {% elsif item.mc %} Master of ceremonies: {{ item.mc.first | escape }}
+                {% else %} Moderator: {{ item.moderator.first | escape }}{% endif %}
+              </p>
+              {% endif %}
+                <hr />
+                <p>{{ item | escape }}</p>"
+            >Get More Information</a
+          >
         </div>
       </div>
 

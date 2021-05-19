@@ -108,25 +108,15 @@
 
       // Get Image Link
       var $src = $(this).attr("href");
-      var data = JSON.parse($(this).attr("data").split('=>').join(':').split('nil').join('\"\"'))
+      var data = $(this).attr("data");
+      console.log(data)
 
       // Create Image on the DOM
       $overlay.append($img);
-      function mc(data){
-        return data
-          .forEach(i => {JSON.stringify(i)})
-          .join(',');
-      };
       $overlay.append(`
       <div style="position: relative; text-align: center; color: white;"></div>
       <div style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-      <h3>${data.time}</h3>
-      <h3>${data.title}</h3>
-      <p>${data.description}</p>
-      <p>${JSON.stringify(data.mc)}</p>
-      <p>${JSON.stringify(data.moderator)}</p>
-      <p>${JSON.stringify(data.participants)}</p>
-      </div>
+      ${data}</div>
       `);
 
       // Show Overlay Image
