@@ -123,7 +123,7 @@
       $overlay.fadeIn(200).children("img").attr("src", $src);
 
       // Lock Body Scroll
-      $body.toggleClass('no-scroll');
+      // $body.toggleClass('no-scroll');
 
     });
 

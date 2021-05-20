@@ -102,7 +102,8 @@ program:
       - title: Building Rural Broadband Using Open Source
         name: Mike Byrne
         org: Conexon
-      - title: Oak Ridge National Lab:  USA Structures Open Data Program
+      - title: >
+          Oak Ridge National Lab:  USA Structures Open Data Program
         name: Mark Tuttle and Melanie Laverdiere
         org:
     time: 2021-06-08T11:45
@@ -128,7 +129,7 @@ program:
     participants:
       - Lorena Molina-Irizarry, Director of Operations, The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
       - Sophia B Liu, Ph.D., Open Innovation Director and Coordinator, On Detail to InnovationX Team, Office of the Assistant Secretary of Health (OASH)
-      - U.S. Department of Health and Human Services (HHS) 
+      - U.S. Department of Health and Human Services (HHS)
       - Lynda Liptrap, GEO Division, U.S. Census Bureau
       - Vincent Osier, GEO Division, U.S. Census Bureau
     time: 2021-06-08T12:15
@@ -137,7 +138,7 @@ program:
     categories:
       - Lightning
     mc:
-      - Carter Christopher 
+      - Carter Christopher
     moderator:
     organizations:
     participants:
@@ -151,10 +152,12 @@ program:
       - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
         name: Chad Blevins
         org: Critigen
-      - title: CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog
-        name:  Matt Hanson
+      - title: >
+          CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog
+        name: Matt Hanson
         org: Element84
-      - title: FCSM Geospatial Interest Group: Tools, Data, and More
+      - title: >
+          FCSM Geospatial Interest Group: Tools, Data, and More
         name: Wendy Martinez
         org: Bureau of Labor Statistics
     time: 2021-06-08T13:15
