@@ -115,7 +115,7 @@
       $overlay.append($img);
       $overlay.append(`
       <div style="position: relative; text-align: center; color: white;"></div>
-      <div style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-height: 85vh; overflow-y: scroll">
       ${data}</div>
       `);
 
@@ -136,9 +136,8 @@
       // Remove Image from DOM
       $overlay.children("img").remove();
 
-      // Unlock Body Scroll
-      $body.toggleClass('no-scroll');
-
+      // Remove Body Scroll Lock / Overlay
+      document.body.className = document.body.className.replace("no-scroll", "");
     });
 
     /**

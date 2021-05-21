@@ -69,3 +69,51 @@ $orange: #fdaf17;
 #program #overlay img {
   min-height: 90%;
 }
+
+.session-time {
+  margin-top: 10px;
+}
+
+.tag {
+  background: #21c2f8; // $light-blue
+  border-radius: 5px;
+  color: rgb(230, 228, 228);
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 3px 5px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.moderator {
+  font-size: .8em;
+}
+
+.participant {
+  margin-top: 10px;
+}
+
+.prez {
+  background: rgb(241, 240, 240);
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 15px;
+  .prez-title {
+    display: block;
+    font-weight: bold;
+  }
+  .prez-by {
+    .prez-presenter {
+      display: inline-block;
+      font-size: .8em;
+      font-weight: bold;
+    }
+    .prez-org {
+      display: inline-block;
+      font-size: .7em;
+      font-weight: normal;
+    }
+  }
+}

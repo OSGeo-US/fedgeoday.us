@@ -52,15 +52,35 @@
             class="item-expand"
             data="
               <h2>{{ item.title | escape }}</h2>
+              {% if item.time %}<h3 class='session-time'>{{item.time | date: '%B %e, %-I:%M %p Eastern Time' }}</h3>{% endif %}
+              <div class='tags'>
+                {% for cat in item.categories %}
+                  <div class='tag'>{{ cat }}</div>
+                {% endfor %}
+              </div>              
               {% if item.moderator or item.mc%}
-              <p>
-                {% if item.moderator and  item.mc %} Moderator: {{ item.moderator.first | escape }}<br/>Master of ceremonies: {{ item.mc.first | escape }}
-                {% elsif item.mc %} Master of ceremonies: {{ item.mc.first | escape }}
-                {% else %} Moderator: {{ item.moderator.first | escape }}{% endif %}
-              </p>
+              <div class='moderator'>
+                {% if item.moderator %} Moderated by: {{ item.moderator.first | escape }}{% endif %}
+              </div>
               {% endif %}
-                <hr />
-                <p>{{ item | escape }}</p>"
+              <hr />
+              {% for participant in item.participants %}
+                {% if participant %}<div class='participant'>&#8212;{{participant}}</div>{% endif %}
+              {% endfor %}
+              {% for prez in item.presentations %}
+                <div class='prez'>
+                  <div class='prez-title'>{{prez.title}}</div>
+                  <div class='prez-by'>
+                    <div class='prez-presenter'>{{prez.name}}</div>
+                    <div class='prez-org'>{{prez.org}}</div>  
+                  </div>
+                </div>
+              {% endfor %}     
+              {% if item.description %} 
+              <hr />
+              <p>{{item.description | escape}}</p>
+              {% endif %}        
+              "
             >Get More Information</a
           >
         </div>
