@@ -146,73 +146,205 @@ features:
   description: Ask speakers questions and join the conversation!
   icon: pe-7s-airplay
 
-
 #####################################
-############  Portfolio  ############
+############  Program  ############
 #####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+program-title: Program
+program-description: Here are all the sessions.
+program-categories:
+  - Lightning
+  - Plenary
+  - Session
+  - Social
+  - Workshop
+program:
+  - title: Networking & Coffee
+    categories:
+      - Social
+    description: Join us in the lounge to meet others and discuss topics and network.
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T08:00
 
-#
-# Portfolio Grid
-#
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
-portfolio:
+  - title: Welcome Remarks
+    categories:
+      - Plenary
+    description:
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T09:00
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: '#'
+  - title: 'Executive Roundtable: Building Federal Programs Through Open Ecosystems'
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Joshua Campbell, Ph.D
+    organizations:
+    participants:
+      - Nadine Alameh
+      - Luis Bermudez
+      - Maggie Cawley
+      - Tod Dabolt
+      - Drew Zachary
+    time: 2021-06-08T09:10
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
-  url: '#'
+  - title: Keynote Speaker
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+      - Chelle Gentemann, Ph.D
+    time: 2021-06-08T10:00
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
-  url: '#'
+  - title: Lightning Talks 1
+    categories:
+      - Lightning
+    mc:
+      - Eddie Pickle
+    moderator:
+    participants:
+    presentations:
+      - title: U.S. Department of the Interior Image Data Manager
+        name: David Carter
+        org: U.S. Department of the Interior
+      - title: Open Science Challenges to Build the AI/ML Ecosystem
+        name:
+        org: SpaceNet.ai
+    time: 2021-06-08T10:45
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+      - John Scott
+    organizations:
+    participants:
+      - Dan Risacher
+      - Ken Kato
+      - Michal Migurski
+    time: 2021-06-08T11:00
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Building Rural Broadband Using Open Source
+        name: Mike Byrne
+        org: Conexon
+      - title: 'Oak Ridge National Lab:  USA Structures Open Data Program'
+        name: Mark Tuttle and Melanie Laverdiere
+        org:
+    time: 2021-06-08T11:45
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
+  - title: Break
+    categories:
+      - Break
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T12:00
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T10:00
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
+  - title: Tackling Geospatial Challenges Through Open Innovation Models within Federal
+      Agencies
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Anna Valuev
+    organizations:
+    participants:
+      - Lorena Molina-Irizarry
+      - Sophia B Liu, Ph.D.
+      - Lynda Liptrap
+      - Vincent Osier
+    time: 12:15 PM
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher, Ph.D
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Implementing the SSGF (Standard Shareable Geospatial Foundation)
+        name:
+        org: Reinventing Geospatial Inc.
+      - title: Geospatial in your Apache Kafka Event Streams
+        name: Will LaForest
+        org: Confluent
+      - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
+        name: Chad Blevins
+        org: Critigen
+      - title: "CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog"
+        name:
+        org: Element84
+      - title: 'FCSM Geospatial Interest Group: Tools, Data, and More'
+        name: Wendy Martinez
+        org: Bureau of Labor Statistics
+    time: 2021-06-08T13:15
 
+  - title: Finding FOSS4G Solutions for Building Federal Programs
+    categories:
+      - Session
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Luis Bermudez
+    organizations:
+    participants:
+      - Arwen De la Torre
+      - Calvin Hamilton
+      - Shayne Urbanowski
+      - Rich Frazier
+    time: 2021-06-08T13:40
+
+  - title: Human-in-the-Loop Active Learning AI Approach
+    categories:
+      - Session
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam
+    organizations:
+    participants:
+      - Martha Morrissey
+      - Drew Bower
+      - Tori Bird
+      - Tres Montano
+      - Amanda Bright
+      - Lexie Yang
+    time: 2021-06-08T13:40
 
 #####################################
 ##########  Core Features  ##########

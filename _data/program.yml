@@ -1,0 +1,359 @@
+---
+program-title: Program
+program-description: Here are all the sessions.
+program-categories:
+  - Lightning
+  - Plenary
+  - Session
+  - Social
+  - Workshop
+program:
+  - title: Networking & Coffee
+    categories:
+      - Social
+    description: Join us in the lounge to meet others and discuss topics and network.
+    mc:
+      - Eddie Pickle
+      - Co-Chair, FedGeoDay 2021
+      - Senior Director, Maxar Technologies
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T08:00
+
+  - title: Welcome Remarks
+    categories:
+      - Plenary
+    description:
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T09:00
+
+  - title: 'Executive Roundtable: Building Federal Programs Through Open Ecosystems'
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Joshua Campbell, Ph.D
+      - CEO, Sand Hill Geographics
+    organizations:
+    participants:
+      - Nadine Alameh,Executive Director, Open Geospatial Consortium
+      - Luis Bermudez. CEO, GeoSolutions USA
+      - Maggie Cawley, Executive Director, OpenStreetMap US
+      - Tod Dabolt, Chief Data Officer, Office of the CIO, Office of the Secretary, U.S. Department of the Interior
+      - Drew Zachary, Managing Director, Census Open Innovation Labs | Director of The Opportunity Project (U.S. Census Bureau)
+    time: 2021-06-08T09:10
+
+  - title: Keynote Speaker
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+    organizations:
+    participants:
+      - Chelle Gentemann, Ph.D, Senior Scientist, Farallon Institute
+    time: 2021-06-08T10:00
+
+  - title: Lightning Talks 1
+    categories:
+      - Lightning
+    mc:
+      - Eddie Pickle
+    moderator:
+    participants:
+    presentations:
+      - title: U.S. Department of the Interior Image Data Manager
+        name: David Carter, Chief, Geospatial Information Services, Office of Surface Mining Reclamation and Enforcement
+        org: U.S. Department of the Interior
+      - title: Open Science Challenges to Build the AI/ML Ecosystem
+        name: Todd Bacastow, Maxar Technologies
+        org: SpaceNet.ai
+    time: 2021-06-08T10:45
+
+  - title: Assuring Federal Program Open Source Software & Map Data Supply Chains
+    categories:
+      - Plenary
+    mc:
+      - Carter Christopher, Ph.D, Section Head, Human Dynamics R&D, Oak Ridge National Laboratory
+    moderator:
+      - John Scott, CEO, Ion Channel
+    organizations:
+    participants:
+      - Dan Risacher, Policy Wonk, Office of the CIO, DoD
+      - Ken Kato, Entrepreneur In Residence @ Navy DWO, Presidential Innovation Fellow
+      - Michal Migurski, Engineering Manager, Facebook Maps
+    time: 2021-06-08T11:00
+
+  - title: Lightning Talks 2
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Building Rural Broadband Using Open Source
+        name: Mike Byrne
+        org: Conexon
+      - title: >
+          Oak Ridge National Lab:  USA Structures Open Data Program
+        name: Mark Tuttle and Melanie Laverdiere
+        org:
+    time: 2021-06-08T11:45
+
+  - title: Break
+    categories:
+      - Break
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T12:00
+
+  - title: Tackling Geospatial Challenges Through Open Innovation Models within Federal
+      Agencies
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Anna Valuev, Head of Strategic Initiatives, The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
+    organizations: The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
+    participants:
+      - Lorena Molina-Irizarry, Director of Operations, The Opportunity Project (TOP)/Census Open Innovation Labs, U.S. Census Bureau
+      - Sophia B Liu, Ph.D., Open Innovation Director and Coordinator, On Detail to InnovationX Team, Office of the Assistant Secretary of Health (OASH)
+      - U.S. Department of Health and Human Services (HHS)
+      - Lynda Liptrap, GEO Division, U.S. Census Bureau
+      - Vincent Osier, GEO Division, U.S. Census Bureau
+    time: 2021-06-08T12:15
+
+  - title: Lightning Talks 3
+    categories:
+      - Lightning
+    mc:
+      - Carter Christopher
+    moderator:
+    organizations:
+    participants:
+    presentations:
+      - title: Standard and Shareable Geospatial Foundation (SSGF) – The Solution for a Common Map
+        name:
+        org: Reinventing Geospatial Inc.
+      - title: Geospatial in your Apache Kafka Event Streams
+        name: Will LaForest, Public Sector CTO
+        org: Confluent
+      - title: Building Open Tools (Atlas-checks) to Improve OSM Data Globally
+        name: Chad Blevins
+        org: Critigen
+      - title: >
+          CMR-STAC: Searching NASA's data archive as a SpatioTemporal Asset Catalog
+        name: Matt Hanson
+        org: Element84
+      - title: >
+          FCSM Geospatial Interest Group: Tools, Data, and More
+        name: Wendy Martinez
+        org: Bureau of Labor Statistics
+    time: 2021-06-08T13:15
+
+  - title: Finding FOSS4G Solutions for Building Federal Programs
+    categories:
+      - Session
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Luis Bermudez
+    organizations:
+    participants:
+      - Arwen De la Torre, NGA
+      - Calvin Hamilton, U.S. Government
+      - Shayne Urbanowski, USGS
+      - Monica Mardel, U.S. Census Bureau
+    time: 2021-06-08T13:40
+
+  - title: Human-in-the-Loop Active Learning AI Approach
+    categories:
+      - Session
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam, CTO, Reinventing Geospatial, Inc. (RGi)
+    organizations:
+    participants:
+      - Martha Morrissey, DevelopmentSeed
+      - Drew Bower, Maxar Technologies
+      - Tori Bird, RGi
+      - Tres Montano, NGA
+      - Amanda Bright, NGA
+      - Lexie Yang, ORNL
+    time: 2021-06-08T13:40
+
+  - title: >
+      Federal Programs Creating Open Source Software: "Sharing the Geospatial Love Through FOSS Development"
+    categories:
+      - Session
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Aaron Kelley, CEO, Upslope Advisors
+    organizations:
+    participants:
+      - Ben Foster, NGA
+      - Nathan McEachen, TerraFrame
+      - Rich Fecher, Maxar Technologies
+      - Jeff Ocker, U.S. Census Bureau
+      - Paul Ramsey, Crunchy Data
+    time: 2021-06-08T14:40
+
+  - title: Open, Standardized Data and Methodologies for Federal AI/ML Programs
+    categories:
+      - Session
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam
+    organizations:
+    participants:
+      - Manil Masky, NASA
+      - Hamed Alemohammad, Radiant Earth
+      - Lilly Thomas, Development Seed
+      - Jake Shermeyer, Capella Space
+      - Chris Burd, NGA
+    time: 2021-06-08T14:40
+
+  - title: Federal Agencies Innovating Through OpenStreetMap
+    categories:
+      - Plenary
+    mc:
+      - Eddie Pickle
+    moderator:
+      - Josh Sisskind, Senior Manager, Geospatial Platform and Tool Development, Maxar
+    organizations:
+    participants:
+      - Maggie Cawley, OSM US
+      - Greg Matthews, USGS
+      - Jim McAndrew, NPS
+      - Derald Dudley, US DOT
+    time: 2021-06-08T15:40
+
+  - title: Conference Wrap Up and Happy Hour Tables
+    categories:
+      - Social
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-08T16:30
+
+  - title: GeoServer Training
+    categories:
+      - Workshop
+    description: >
+      This workshop will provide the basic information to get you started with confidence in using GeoServer, by covering: 1) Getting to know the GeoServer, 2) OGC Services implementations, 3) Setting up vector and raster data, and 4) Optimizing the performance of GeoServer.
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Andrea Aime
+    time: 2021-06-09T08:00
+
+  - title: >
+      Open Source Geospatial Platform: GeoNode + MapStore
+    categories:
+      - Workshop
+    description: >
+      This training will provide an introduction to Open Source Geospatial Platform using MapStore and GeoNode, by covering: 1) Introduction to MapStore and its main functionalities (including dashboards, and GeoStories),  2) Introduction to GeoNode
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Lorenzo Natali
+      - Tobia Di Pisa
+    time: 2021-06-09T08:00
+
+  - title: >
+      Introduction to QGIS
+    categories:
+      - Workshop
+    description: >
+      This workshop is designed to introduce you to QGIS 3.x, an Open Source GIS software for viewing, editing, and managing spatial data in a wide variety of commonly used vector and raster formats. It is lightweight, flexible, and can be installed on Windows, MacOSX, and Linux. The class will run through QGIS 3.16/3.18 and provide a functional overview of what to expect when using QGIS and what you can do with the software.
+    moderator:
+    organizations:
+    participants:
+      - Randal Hale
+    time: 2021-06-09T08:00
+
+  - title: Modern Geospatial Cloud Architecture Survey
+    categories:
+      - Workshop
+    description:
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Allesandro Parma
+    time: 2021-06-09T08:00
+
+  - title: Break
+    categories:
+      - Break
+    mc:
+    moderator:
+    organizations:
+    participants:
+    time: 2021-06-09T12:00
+
+  - title: PostGIS Training
+    categories:
+      - Workshop
+    description: >
+      Paul Ramsey will provide an introduction to PostGIS as well as some more advanced use cases.
+    mc:
+    moderator:
+    organizations:
+    participants:
+      -
+    time: 2021-06-09T13:00
+
+  - title: The Opportunity Project
+    categories:
+      - Workshop
+    description: >
+      The idea is for the workshop to be a lesson on quick and easy user research. There is a method called ""paper prototyping"" that is great for quickly understanding the flow and user experience of a product or service.
+      Throughout the session, participants will grab pen and paper and I'll walk them through some techniques. I can show attendees how to use paper prototyping in a virtual interview environment as well. Here are the goals of the workshop:
+      · Learn about Human-Centered Design, and why it's important to test your products before implementation
+      · Understand the value of paper prototyping and quick iteration
+      o Ex. Low-fidelity prototypes can help participants focus on the bigger picture and flow, rather than the nitty-gritty details
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Emma Terese
+      - Bolt Brennan
+    time: 2021-06-09T13:00
+
+  - title: Build Your Own Satellite Imagery Web App
+    categories:
+      - Workshop
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Daniel Dufour
+    time: 2021-06-09T13:00
+
+  - title: OGC API
+    categories:
+      - Workshop
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Sterling Jasa-Phillips
+    time: 2021-06-09T13:00
