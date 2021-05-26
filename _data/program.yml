@@ -227,7 +227,7 @@ program:
       - Chris Burd, NGA
     time: 2021-06-08T14:40
 
-  - title: Federal Agencies Innovating Through OpenStreetMap
+  - title: "Partnering for Innovation: A Collaboration between Federal Agencies and OSMUS"
     categories:
       - Plenary
     mc:
@@ -236,10 +236,11 @@ program:
       - Josh Sisskind, Senior Manager, Geospatial Platform and Tool Development, Maxar
     organizations:
     participants:
-      - Maggie Cawley, OSM US
       - Greg Matthews, USGS
-      - Jim McAndrew, NPS
       - Derald Dudley, US DOT
+      - Jim McAndrew, NPS
+      - Leslie Haig, US DOT
+      - Maggie Cawley, OSM US
     time: 2021-06-08T15:40
 
   - title: Conference Wrap Up and Happy Hour Tables
