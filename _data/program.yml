@@ -177,6 +177,18 @@ program:
       - Monica Mardel, U.S. Census Bureau
     time: 2021-06-08T13:40
 
+  - title: A Strategic Perspective on Open ecosystems & AI/ML
+    categories:
+      - Session
+    mc:
+      - Carter Christopher
+    moderator:
+      - Chitra Sivanandam
+    organizations:
+    participants:
+        - Rachael Martin, Director, Artificial Intelligence, Automation and Augmentation (AAA), National Geospatial-Intelligence Agency (NGA)
+    time: 2021-06-08T13:40
+
   - title: Human-in-the-Loop Active Learning AI Approach
     categories:
       - Session
@@ -192,7 +204,7 @@ program:
       - Tres Montano, NGA
       - Amanda Bright, NGA
       - Lexie Yang, ORNL
-    time: 2021-06-08T13:40
+    time: 2021-06-08T13:50
 
   - title: >
       Federal Programs Creating Open Source Software: "Sharing the Geospatial Love Through FOSS Development"
