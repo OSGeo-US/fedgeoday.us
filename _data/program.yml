@@ -354,19 +354,48 @@ program:
   - title: Build Your Own Satellite Imagery Web App
     categories:
       - Workshop
+    description: >
+      Building your own geospatial web application has never been easier.  This workshop is meant for those new to web development, scientists, technical managers, and anyone interested in sharing, visualizing, and analyzing geospatial imagery data on the web.  In this workshop, you will learn how to host an application for free on Github pages, create a simple Leaflet map, display imagery on the web map, and add an analysis component.  You will be able to bring your own data or choose from a pre-selected list of high quality imagery datasets.
     mc:
     moderator:
     organizations:
     participants:
-      - Daniel Dufour
+      - Daniel Dufour, GeoSurge
     time: 2021-06-09T13:00
 
   - title: OGC API
     categories:
       - Workshop
+    description: >
+      The OGC API suite of standards defines modular API building blocks that spatially enable Web APIs in a consistent way. OGC APIs make use of the OpenAPI Specification for describing APIs.  Data resources such as features, coverages, maps, styles, metadata records and processes that operate on geospatial data can all be published through OGC APIs. The workshop will provide an overview of OGC APIs and an opportunity for participants to explore a selection of OGC API implements.
     mc:
     moderator:
     organizations:
     participants:
       - Sterling Jasa-Phillips
     time: 2021-06-09T13:00
+
+  - title: Get Started with OpenStreetMap
+    categories:
+      - Workshop
+    description: >
+      Here’s an opportunity to get started with OpenStreetMap especially for employees and contractors of Federal agencies. TeachOSM will facilitate a workshop introducing the OpenStreetMap project. The workshop will feature:
+      <br/><br/>
+      * A concise overview of the OpenStreetMap project,
+      * An introduction to basic editing techniques, and
+      * An overview of the Federal OpenStreetMap pilot program.
+      <br/><br/>
+      At the end of the workshop you should have a good understanding of:
+      <br/><br/>
+      * The role of OSM in the geospatial ecosystem,
+      * The OpenStreetMap workflow, and
+      * Issues related to government use of OpenStreetMap
+      <br/><br/>
+      Note: A mouse is highly recommended for this workshop.
+    mc:
+    moderator:
+    organizations:
+    participants:
+      - Steven Johnson
+    time: 2021-06-09T13:00
+
