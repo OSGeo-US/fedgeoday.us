@@ -220,7 +220,7 @@ testimonials:
   url-text: ThemeForest.net
   avatar: avatar-01.webp
   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
+  logo-img: themeforest.webp
 
 # Client
 - name: Adam Smith
@@ -228,7 +228,7 @@ testimonials:
   url-text: CodeCanyon.net
   avatar: avatar-02.webp
   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
+  logo-img: codecanyon.webp
 
 # Client
 - name: Irene Warner
@@ -236,7 +236,7 @@ testimonials:
   url-text: VideoHive.net
   avatar: avatar-03.webp
   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
+  logo-img: videohive.webp
 
 # Client
 - name: Richard Ryan
@@ -244,7 +244,7 @@ testimonials:
   url-text: AudioJungle.net
   avatar: avatar-04.webp
   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
+  logo-img: audiojungle.webp
 
 
 #####################################
