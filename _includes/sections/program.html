@@ -37,7 +37,7 @@
       <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
         <figure class="img-wrap">
           <img
-            src="./images/program/{{ item.categories | first }}.jpg"
+            src="./images/program/{{ item.categories | first }}.webp"
             alt="{{ item.categories | first }} Item Image"
           />
         </figure>
@@ -48,7 +48,7 @@
         </div>
         <div class="item-content">
           <a
-            href="./images/program/{{ item.categories | first }}.jpg"
+            href="./images/program/{{ item.categories | first }}.webp"
             class="item-expand"
             data="
               <h2>{{ item.title | escape }}</h2>

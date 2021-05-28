@@ -1,19 +1,19 @@
 - name: Luis Bermudez
   tagline: CEO<br/>GeoSolutions USA
-  avatar: luis-bermudez.jpg
+  avatar: luis-bermudez.webp
   twitter: https://twitter.com/berdez
   linkedin: https://www.linkedin.com/in/bermudez
 
 - name: Maggie Cawley
   tagline: Executive Director<br/>OpenStreetMap US
-  avatar: maggie-cawley.jpg
+  avatar: maggie-cawley.webp
   linkedin: https://www.linkedin.com/in/maggiecawley/
   twitter: https://twitter.com/MaggieMaps
   github: https://github.com/mcawley
 
 - name: Daniel Dufour
   tagline: CEO<br/>GeoSurge
-  avatar: daniel-dufour.jpg
+  avatar: daniel-dufour.webp
   twitter: https://twitter.com/DanielJDufour
   github: https://github.com/DanielJDufour
   linkedin: https://www.linkedin.com/in/danieljdufour
@@ -21,13 +21,13 @@
 
 - name: Stephen Gillotte
   tagline: CEO<br/>Reinventing Geospatial, Inc.
-  avatar: steve-gillotte.jpg
+  avatar: steve-gillotte.webp
   linkedin: https://www.linkedin.com/in/sgillotte/
   twitter: https://twitter.com/stephengillotte
 
 - name: Aaron Kelley
   tagline: President</br>UpSlope Advisors
-  avatar: aaron-kelley.jpg
+  avatar: aaron-kelley.webp
   linkedin: https://www.linkedin.com/in/aaron-kelley-1198887
 
 - name: Sophia B Liu, Ph.D.
@@ -38,24 +38,24 @@
 
 - name: Eddie Pickle
   tagline: Sr. Director<br/>Maxar Technologies
-  avatar: eddie-pickle.jpg
+  avatar: eddie-pickle.webp
   linkedin: 'https://www.linkedin.com/in/eddie-pickle-b67545/'
   twitter: 'https://twitter.com/eddie_pickle'
 
 - name: Josh Sisskind
   tagline: Senior Manager</br>Maxar Technologies
-  avatar: josh-sisskind.jpg
+  avatar: josh-sisskind.webp
   linkedin: https://www.linkedin.com/in/joshuasisskind
   twitter: https://twitter.com/sisskindj
   github: https://github.com/sisskind
 
 - name: Guido Stein
   tagline: Geospatial Data Engineer<br/>Liveby
-  avatar: guido-stein.jpg
+  avatar: guido-stein.webp
   linkedin: 'https://www.linkedin.com/in/guidostein/'
   twitter: 'https://twitter.com/guidos'
 
 - name: Adam Timm
   tagline: Enterprise Account Executive - DoD<br/>Crunchy Data
-  avatar: adam-timm.jpg
+  avatar: adam-timm.webp
   linkedin: https://www.linkedin.com/in/adamtimm/
