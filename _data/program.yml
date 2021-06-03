@@ -335,7 +335,9 @@ program:
     categories:
       - Workshop
     description: >
-      Paul Ramsey will provide an introduction to PostGIS as well as some more advanced use cases.
+      Paul Ramsey and Kat Batuigas will provide a hand-on introduction to the PostGIS/PostgreSQL spatial database. The course will cover the basics of using SQL to express spatial queries, the foundations of spatial databases, and more advanced topics like spatial joins, indexes, and spatial relationships. 
+
+      Attendees should have access to a computer they can install software on, specifically the PgAdmin database client software. Attendees will be given access to cloud instances of PostgreSQL/PostGIS for the workshop.
     mc:
     moderator:
     organizations:
