@@ -345,20 +345,21 @@ program:
       -
     time: 2021-06-09T13:00
 
-  - title: The Opportunity Project
+  - title: 'User Research Methods: Paper Prototyping Workshop'
     categories:
       - Workshop
     description: >
-      The idea is for the workshop to be a lesson on quick and easy user research. There is a method called ""paper prototyping"" that is great for quickly understanding the flow and user experience of a product or service.
-      Throughout the session, participants will grab pen and paper and I'll walk them through some techniques. I can show attendees how to use paper prototyping in a virtual interview environment as well. Here are the goals of the workshop:
-      · Learn about Human-Centered Design, and why it's important to test your products before implementation
-      · Understand the value of paper prototyping and quick iteration
-      o Ex. Low-fidelity prototypes can help participants focus on the bigger picture and flow, rather than the nitty-gritty details
+      Join us to learn about quick and easy user research methods you can use to improve your products and services. We will demo a method called 'paper prototyping' which is useful for testing a user's journey of a product or service. Throughout the session, participants will grab pen and paper and learn hands-on techniques for low-fidelity prototyping.
+      <br/><br/>
+      Key goals of the workshop:
+      <br/>– Build Human-Centered Design skills
+      <br/>– Understand the value of paper prototyping and quick iteration
+      <br/>–  Learn about low-fidelity user research methods
     mc:
     moderator:
     organizations:
     participants:
-      - Emma Terese
+      - Emma Brennan
       - Bolt Brennan
     time: 2021-06-09T13:00
 
