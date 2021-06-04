@@ -345,24 +345,6 @@ program:
       -
     time: 2021-06-09T13:00
 
-  - title: 'User Research Methods: Paper Prototyping Workshop'
-    categories:
-      - Workshop
-    description: >
-      Join us to learn about quick and easy user research methods you can use to improve your products and services. We will demo a method called 'paper prototyping' which is useful for testing a user's journey of a product or service. Throughout the session, participants will grab pen and paper and learn hands-on techniques for low-fidelity prototyping.
-      <br/><br/>
-      Key goals of the workshop:
-      <br/>– Build Human-Centered Design skills
-      <br/>– Understand the value of paper prototyping and quick iteration
-      <br/>–  Learn about low-fidelity user research methods
-    mc:
-    moderator:
-    organizations:
-    participants:
-      - Emma Brennan
-      - Bolt Brennan
-    time: 2021-06-09T13:00
-
   - title: Build Your Own Satellite Imagery Web App
     categories:
       - Workshop
